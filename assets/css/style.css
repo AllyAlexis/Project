@@ -1,0 +1,21 @@
+
+
+
+
+body {
+  font-family: 'Sedan';
+  color: #777777;
+}
+
+
+h2 {
+  font-family: 'Sedan';
+  text-transform: unset;
+  letter-spacing: 4px;
+  color: #555555;
+}
+
+#logo {
+  float: left;
+  font-size: 280%;
+}
