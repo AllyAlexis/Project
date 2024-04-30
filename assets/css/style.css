@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Bad Script', cursive;
-  color: #89CFF0 ;
+  color: #A020F0;
   margin: 0;
   
 }
@@ -12,7 +12,7 @@ h2 {
   font-family: 'Dancing Script', cursive;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #A020F0 ;
+  color: #DA70D6;
   margin: 0;
 }
 
@@ -67,7 +67,7 @@ h2 {
 }
 
 #cover-text, #cover-text {
-  color: #CBC3E3
+  color: #A020F0 
 }
 
 #cover-text {
@@ -95,15 +95,14 @@ h2 {
 }
 
 #left-about {
-  padding: 30px;
-  width: 33%;
-  float: left;
+    left: 50px;
+    position: center;
+   
 }
 
 #right-about {
-  padding: 30px;
-  width: 33%;
-  float: right;
+  left: 50px;
+  position: center
 }
 
 #center-about {
@@ -118,30 +117,35 @@ hr {
 }
 
 .left-about-heading {
-  width: 50%;
+  width: 60%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.right-about-heading {
+  width: 60%;
   float: right;
   line-height: 20px;
   clear: both;
   margin-bottom: 50px;
-}
-
-.right-about-heading {
-  width: 50%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
+  text-align: center;
 }
 
 .right-about-heading h2 {
-  text-align: right;
+  text-align: center;
 }
 
 .right-about-heading p {
-  text-align: right;
-  font-size: 100%;
+  text-align: center;
+  font-size: 102%;
   line-height: 20px;
 }
+
+
 
 #welcome {
   margin: 20px 0;
@@ -149,9 +153,84 @@ hr {
   text-size: 280%;
 }
 
+
 #codes-image {
   height: 600px;
   width: 100%;
-  background: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") repeat center center;
+  background: url("https://images.unsplash.com/photo-1511184150666-9bb7d41a88f4?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); background-repeat: repeat;
+  background-size: cover;
 }
 
+#symbols {
+background-image: url("https://plus.unsplash.com/premium_photo-1675802520884-45ad9a50c2c9?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+overflow: hidden;
+}
+
+#symbols div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 23%;
+    height: 70px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 7px;
+}
+
+#times h2 {
+    color: #fafafa;
+}
+
+footer {
+  height: 90px;
+}
+
+.sm {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5em;
+  list-style: none;
+}
+
+.sm li {
+  display: inline;
+}
+
+.sm i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  
+}
+
+#projects-image {
+  height: 600px;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1511184150666-9bb7d41a88f4?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); background-repeat: repeat;
+  background-size: cover;
+}
+
+.left-about-headings {
+  width: 60%;
+  float: left;
+  line-height: 10px;
+  clear: both;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.right-about-headings {
+  width: 60%;
+  float: right;
+  line-height: 10px;
+  clear: both;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
