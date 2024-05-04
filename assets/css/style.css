@@ -33,8 +33,6 @@ h2 {
   margin: 0;
 }
 
-
-
 #menu li {
   float: right;
   margin-right: 30px;
@@ -172,12 +170,17 @@ overflow: hidden;
 #symbols div {
     color: #fafafa;
     background-color: rgba(0,0,0, .6);
-    width: 23%;
+    width: 17%;
     height: 70px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
     margin: 7px;
+}
+
+#symbols h2 {
+  text-align: center;
+  font-size: 20px;
 }
 
 #times h2 {
@@ -217,11 +220,11 @@ footer {
 .left-about-headings {
   width: 60%;
   float: left;
-  line-height: 10px;
+  line-height: 15px;
   clear: both;
   height: 300px;
   margin-top: 50px;
-  margin-left: 10px;
+ 
   text-align: center;
 }
 
@@ -243,6 +246,8 @@ footer {
   margin-top: 10px;
 }
 
+
+
 #contactme-image {
   height: 50px;
   width: 100%;
@@ -261,6 +266,11 @@ footer {
     text-align: center;
 }
 
+form {
+  margin-top: 2rem;
+  text-align: center;
+}
+
 #symbols-projects {
 background-image: url("https://plus.unsplash.com/premium_photo-1675802520884-45ad9a50c2c9?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); background-repeat: no-repeat;
 background-size: cover;
@@ -272,12 +282,17 @@ overflow: hidden;
 #symbols-projects div {
     color: #fafafa;
     background-color: rgba(0,0,0, .6);
-    width: 23%;
+    width: 17%;
     height: 70px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    margin: 7px;
+    margin: 4px;
+}
+
+#symbols-projects h2 {
+  text-align: center;
+  font-size: 20px;
 }
 
 #symbols-contactme {
@@ -299,22 +314,162 @@ overflow: hidden;
     margin: 7px;
 }
 
-@media screen and (max-width: 1393px) {
+
+  @media screen and (max-width: 1200px){
+      #knowledge{
+          width: 65%;
+          height: 1200px;
+          margin: 0 auto;
+      }
+
+      #welcome {
+          padding: 30px 0;
+          margin-top: 0;
+      }
+
+      #left-about, #right-about {
+          width:100%;
+          float:left;
+          padding: 0;
+      }
+
+      #center-about{
+          clear: both;
+          width: 100%;
+          float: left;
+          padding: 0;
+      }
+
+      #times div {
+          width: 100%;
+          clear: both;
+          height: 150px;
+          border-style: solid;
+          border-bottom-width: 1px;
+          border-bottom-color: #fff; 
+          padding: 0;
+      }
+    #symbols h2 {
+         text-align: center;
+         font-size: 10px;
+       }
+
+    #symbols div {
+        height: 50px;
+        margin-left: 20px;
+    }
+  }
+
+  @media screen and (max-width: 943px){
+
+      #menu{
+          clear: left;
+          float: left;
+          margin-left: 30px; 
+          margin-bottom: 20px;
+          line-height: 25px;
+      }
+
+      #cover-text {
+          left:0px;
+      }
+
+      #knowledge {
+          width:90%;
+          height: 1200px;
+          margin: 0 auto;
+      }
+
+      .left-about-heading, .right-about-heading{
+          width: inherit;
+      }
+
+      .left-about-heading h2, .right-about-heading h2{
+          width: 100%;
+          text-align: center;
+      }
+
+      .left-about-heading p, .right-about-heading p{
+          text-align: center;
+          padding: 0 20px 0 20px;
+      }
+
+     #symbols h2 {
+         text-align: center;
+         font-size: 15px;
+       }
+
+    #symbols div {
+        height: 50px;
+        margin-left: 20px;
+        float: left;
+    }
+     }
+
+@media screen and (max-width: 480px){
+
+  #menu{
+      clear: left;
+      float: left;
+      margin-left: 30px; 
+      margin-bottom: 20px;
+      line-height: 25px;
+  }
+
+  #cover-text {
+      left:0px;
+  }
+
   #knowledge {
-    width: 65%;
-    height: 1200px;
-    margin: 0 auto;
+      width:90%;
+      height: 1200px;
+      margin: 0 auto;
+  }
+
+  .left-about-heading, .right-about-heading{
+      width: inherit;
+  }
+
+  .left-about-heading h2, .right-about-heading h2{
+      width: 100%;
+      text-align: center;
+  }
+
+  .left-about-heading p, .right-about-heading p{
+      text-align: center;
+      padding: 0 20px 0 20px;
+  }
+
+ #symbols h2 {
+     text-align: center;
+     font-size: 8px;
+   }
+
+#symbols div {
+    height: 40px;
+    margin-left: 9px;
+}
+ }
+
+
+
+
+@media screen and (max-width: 1200px){
+  #projects{
+      width: 65%;
+      height: 1200px;
+      margin: 0 auto;
   }
 
   #welcome {
-    padding: 30px 0;
-    margin-top: 0;
+      padding: 30px 0;
+      margin-top: 0;
   }
 
   #left-about, #right-about {
-    width: 100%;
-    float: left;
-    padding: 0;
+      width:100%;
+      float:left;
+      padding: 0;
   }
 
   #center-about{
@@ -324,5 +479,118 @@ overflow: hidden;
       padding: 0;
   }
 
-  
+  #times div {
+      width: 100%;
+      clear: both;
+      height: 150px;
+      border-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: #fff; 
+      padding: 0;
+  }
+#symbols-projects h2 {
+     text-align: center;
+     font-size: 10px;
+   }
+
+#symbols-projects div {
+    height: 50px;
+    margin-left: 20px;
+}
+}
+
+@media screen and (max-width: 943px){
+
+  #menu{
+      clear: left;
+      float: left;
+      margin-left: 30px; 
+      margin-bottom: 20px;
+      line-height: 25px;
+  }
+
+  #cover-text {
+      left:0px;
+  }
+
+  #projects {
+      width:90%;
+      height: 1200px;
+      margin: 0 auto;
+  }
+
+  .left-about-headings, .right-about-headings{
+      width: inherit;
+  }
+
+  .left-about-headings h2, .right-about-headings h2{
+      width: 100%;
+      text-align: center;
+  }
+
+  .left-about-headings {
+    width: 60%;
+    float: left;
+    line-height: 15px;
+    clear: both;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+ #symbols-projects h2 {
+     text-align: center;
+     font-size: 15px;
+   }
+
+#symbols-projects div {
+    height: 50px;
+    margin-left: 20px;
+    float: left;
+}
+ }
+
+@media screen and (max-width: 480px){
+
+#menu{
+  clear: left;
+  float: left;
+  margin-left: 30px; 
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+#cover-text {
+  left:0px;
+}
+
+#projects {
+  width:90%;
+  height: 1200px;
+  margin: 0 auto;
+}
+
+.left-about-headings, .right-about-headings{
+  width: inherit;
+}
+
+.left-about-headings h2, .right-about-headings h2{
+  width: 100%;
+  text-align: center;
+}
+
+.left-about-headings p, .right-about-headings p{
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+#symbols-projects h2 {
+ text-align: center;
+ font-size: 8px;
+}
+
+#symbols-projects div {
+height: 40px;
+margin-left: 9px;
+}
 }

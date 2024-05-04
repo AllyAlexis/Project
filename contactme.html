@@ -7,7 +7,7 @@
   <title>Sian Young</title>
   <script src="https://kit.fontawesome.com/2f5b6b97f0.js" crossorigin="anonymous"></script>
   <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-
+  
 
 </head>
 
@@ -38,10 +38,18 @@
   <div class="center-about-heading">
     <h2 id="contactmetoday">Let's Get Together!</h2>
     <div class="center-form">
-      <form>
-        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-        <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
-        <input type="submit" name="submit" id="submit" class="form-control" placeholder="Submit" required />
+      <form action="https://formdump.codeinstitute.net" method="POST">
+          <div>
+              <label for="name-field">Name</label>
+              <input id="name-field" type="text" name="full_name" placeholder="Your Name">
+          </div>
+          <div>
+              <label for="email-field">Email</label>
+              <input id="email-field" type="email" name="email" placeholder="Your email">
+          </div>
+
+          <input type="submit" value="Submit">
+
       </form>
     </div>
     </div>
